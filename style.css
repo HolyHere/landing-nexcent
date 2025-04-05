@@ -73,14 +73,26 @@ header .header_button {
 }
 
 /* первая секция  */
+.all_section {
+  /* width: 1440px; */
+  margin: auto;
+
+}
+
 main {
   margin: auto;
   margin-top: 84px;
   width: 100%;
 }
 
+.first_section_container { 
+  width: 100%;
+  background-color: rgba(245, 247, 250, 1);
+}
 
 main article .first_section {
+  margin: auto;
+  width: 1440px;
   background-color: rgba(245, 247, 250, 1);
   display: flex;
   justify-content: center;
@@ -334,10 +346,17 @@ main article .third_section .third_container {
 }
 
 /* четвёртая секция */
+main article .four_section_container { 
+  width: 100%;
+}
 
 main article .four_section {
+  width: 1440px;
+  margin: auto;
+  padding-left: 144px;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 49px;
   margin-top: 42px;
@@ -500,10 +519,16 @@ main article .five_section .five_container .second_p :nth-child(2) ::before {
 }
 
 /* шестая секция */
+main article .six_section_container { 
+  width: 100%;
+}
 
 main article .six_section {
+  width: 1440px;
+  margin: auto;
+  padding-left: 144px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 49px;
   margin-top: 48px;
